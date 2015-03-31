@@ -1,0 +1,38 @@
+{
+  "name": "ujs",
+  "version": "0.0.1",
+  "description": "",
+  "main": "u.js",
+  "devDependencies": {
+  	"steal": "0.7.X",
+    "steal-qunit": "0.0.2"
+  },
+  "directories": {
+    "doc": "doc"
+  },
+  "system": {
+  	"paths": {
+		"dojo": "util/dojo/dojo-1.8.1.js",
+		"yui": "util/yui/yui-3.7.3.js",
+		"mootools": "bower_components/mootools/dist/mootools-core.js",
+		"zepto": "bower_components/zepto/zepto.js",
+		"jquery": "bower_components/jquery/dist/jquery.js"
+	}
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bitovi/u.git"
+  },
+  "keywords": [
+    "CanJS"
+  ],
+  "author": "Bitovi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bitovi/u/issues"
+  },
+  "homepage": "https://github.com/bitovi/u"
+}
